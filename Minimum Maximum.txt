@@ -1,0 +1,5 @@
+t=int(input())
+for i in range(t):
+    N=int(input())
+    arr=[int(k) for k in input().split()]
+    print(min(arr)*(N-1))
